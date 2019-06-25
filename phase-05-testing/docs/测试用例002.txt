@@ -1,0 +1,30 @@
+≤‚ ‘”√¿˝002
+
+$(clickedObj).ready(
+				function()
+				{
+					$(".btn1").click(
+							function()
+							{
+								$("img").animate(
+										{right:"+=200px",
+										 width : '-=15px',
+										 opacity : '-=0.1',
+										 bottom : '+=50px'
+										},5000);
+							}
+									);
+					$(".btn2").click(
+							function()
+							{
+								$("img").animate(
+										{
+											right:"0",
+											width : '150px',
+											opacity : '1',
+											bottom : '10px'
+										});
+							}
+									);
+				}			
+							);
